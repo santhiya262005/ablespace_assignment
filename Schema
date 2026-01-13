@@ -1,0 +1,40 @@
+product-data-explorer/
+│
+├── backend/
+│   ├── src/
+│   │   ├── app.module.ts
+│   │   ├── main.ts
+│   │   ├── products/
+│   │   │   ├── products.controller.ts
+│   │   │   ├── products.service.ts
+│   │   │   └── products.module.ts
+│   │   ├── scraper/
+│   │   │   ├── scraper.controller.ts
+│   │   │   ├── scraper.service.ts
+│   │   │   └── scraper.module.ts
+│   │   └── common/
+│   │
+│   ├── test/
+│   ├── schema.sql
+│   ├── seed.sql
+│   ├── package.json
+│   ├── Dockerfile
+│   └── nest-cli.json
+│
+├── frontend/
+│   ├── app/
+│   │   ├── page.tsx
+│   │   ├── products/
+│   │   │   └── page.tsx
+│   │   └── layout.tsx
+│   ├── components/
+│   ├── services/
+│   │   └── api.ts
+│   ├── package.json
+│   └── Dockerfile
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+└── README.md
